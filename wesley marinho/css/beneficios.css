@@ -1,0 +1,95 @@
+#projects{
+    height: 500px;
+    padding: 0;
+    border: none;
+    background-color: #eef2fd;
+}
+.atributos{
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 80%;
+ 
+    margin: auto;
+}
+@media screen and (max-width: 730px){
+    .atributos{
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #projects{
+        height: 95vh;
+        justify-content: center;
+        padding: 5px;
+    }
+}
+
+.titulo-beneficios{
+    width: 80%;
+    margin: auto;
+}
+
+.titulo-beneficios .titulo{
+    text-align: left;
+
+    margin: 10px;
+    padding: 0;
+    
+}
+.titulo-beneficios .h-titulo{
+    text-align: left;
+    color: #030249dc;
+    margin: 15px;
+
+    width: 270px;
+
+    padding-left: 5px;
+    border-bottom: 2px solid rgb(126, 126, 126);
+    font-size: 20px;
+    font-weight: 600;
+}
+.texto-atributos{
+    font-weight: 700;
+    color: rgb(90, 89, 89);
+    text-align: center;
+}
+.placa2{
+    
+
+   width:90px;
+   padding-top: 15px;
+  
+
+}
+.img-atributo{
+    width: 100px;
+    
+
+}
+
+.icones-atributos{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+
+#blog{
+    background-color: #06045e;
+    color: white;
+ height: 70px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 0;
+}
+
+.footer{
+ padding: 0;
+    width: 100%;
+ text-align: center;
+}
